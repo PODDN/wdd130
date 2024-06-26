@@ -43,12 +43,14 @@ aside {
 }
 aside{
     position: relative;
-    left: 100px;
+    left: 500px;
+
 }
 aside img {
     width: 300px;
     height: auto;
     border: 10px dotted blue;
+
 
 }
 aside img{
@@ -60,8 +62,13 @@ main img {
     width: 300px;
     height: auto;
     float: right;
+    position: relative;
+    left: 20px;
 }
-p {padding: 0;}
+p {
+    padding: 0;
+    margin:20px;
+}
 footer{
     margin-top: 15px;
     border-top: 1px solid #000;
