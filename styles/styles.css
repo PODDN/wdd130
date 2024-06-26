@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html{
     background-color: beige;
 }
@@ -25,7 +30,7 @@ p {
 }
 main {
     max-width: 500px;
-    color: darkorange;
+    color: rgb(57, 22, 172);
 }
 aside {
     width: 20rem
@@ -36,14 +41,25 @@ aside {
     color: #333;
     text-align: center;
 }
+aside{
+    position: relative;
+    left: 100px;
+}
 aside img {
     width: 300px;
     height: auto;
     border: 10px dotted blue;
+
+}
+aside img{
+    position: relative;
+    top: auto;
+    left: 0;
 }
 main img {
     width: 300px;
     height: auto;
+    float: right;
 }
 p {padding: 0;}
 footer{
@@ -66,3 +82,15 @@ footer{
 }
 h1{font-family:"ktf_dinregular";}
 
+/* Class Selectors */
+.box {
+    margin:1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color:aliceblue;
+    color: gold;
+}
+aside{
+    width: 20em;
+    text-align: center;
+}
