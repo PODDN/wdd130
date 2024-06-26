@@ -1,31 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Jersey+25+Charted&family=Righteous&display=swap');
 body{
-    font-family: var(--paragraph-font);
+    font-family:'Jersey', static;
+}
+:root{
+    --primary-color:#DA4167;
+    --secondary-color:#083D77;
+    --accent1-color:#F4D35E;
+    --acent2-color:#F78764;
+
+    --heading-font:'Cinzel', serif;
+    --paragraph-font:'Jersey', serif;
+
+    --nav-background-color:#F4D35E;
+    --nav-link-color: #F78764;
+    --nav-hover-link-color:#DA4167;
+    --nav-hover-background-color:#083D77;  
+}
+body{
+    font-family:var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
-
 }
-:root {
---primary-color: #FFBF00;
---secondary-color: #2274A5;
---accent1-color: #FFFFFF;
---accent2-color: #E83F6F;
-
---heading-font: '___', serif;
---paragraph-font: '___', serif;
-
---nav-background-color: #FFBF00;
---nav-link-color: #2274A5;
---nav-hover-link-color: #FFFFFF;
---nav-hover-background-color: #E83F6F;
-}
-
-body{
-    font-family: var(--paragragh-font);
-    max-width: : 960px;
-    padding: 20px;
-}
-h1,h2,h3,h4,h5,h6{
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -34,21 +30,20 @@ header{
     background-color: var(--accent1-color);
 }
 p {
-padding: 25x;
+    padding: 25px;
 }
-
-nav{
+nav {
     background-color: var(--nav-background-color);
-    font-size: 1.2rem;
+    font-size: 1.2em;
     display: flex;
 }
-nav a{
+nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
-nav a:link, nav a:visited{
+nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
 nav a:hover {
