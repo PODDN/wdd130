@@ -63,11 +63,11 @@ main img {
     height: auto;
     float: right;
     position: relative;
-    left: 20px;
+    left: 10%;
 }
 p {
     padding: 0;
-    margin:20px;
+    margin:5%;
 }
 footer{
     margin-top: 15px;
