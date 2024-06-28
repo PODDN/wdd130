@@ -32,6 +32,18 @@ header{
 p {
     padding: 25px;
 }
+#color1 {
+    color: #DA4167;
+}
+#color2 {
+    color: #083D77;
+}
+#color3 {
+    color: #F4D35E;
+}
+#color4 {
+color: #F78764;
+}
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2em;
