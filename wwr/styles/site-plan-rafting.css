@@ -16,6 +16,9 @@ body{
     --nav-hover-link-color:#DA4167;
     --nav-hover-background-color:#083D77;  
 }
+html {
+    background-color: lightyellow;
+}
 body{
     font-family:var(--paragraph-font);
     max-width: 960px;
@@ -28,6 +31,10 @@ h1, h2, h3, h4, h5, h6 {
 header{
     padding: 20px;
     background-color: var(--accent1-color);
+    color: blueviolet;
+}
+div {
+    background-color: greenyellow;
 }
 p {
     padding: 25px;

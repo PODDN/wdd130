@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Jersey+25+Charted&family=Righteous&display=swap');
+
+:root {
+    --primary-color:#DA4167;
+    --secondary-color:#083D77;
+    --accent1-color:#F4D35E;
+    --acent2-color:#F78764;
+
+   
+    --heading-font:'Cinzel', serif;
+    --paragraph-font:'Jersey', serif;
+
+    --nav-background-color:#F4D35E;
+    --nav-link-color: #F78764;
+    --nav-hover-link-color:#DA4167;
+    --nav-hover-background-color:#083D77;  
+}
+body {
+    max-width: 960px;
+    padding: 20px;
+}
+.parent{
+position: relative;
+}
+.child1 {
+    background-color: aliceblue; 
+    border: solid;
+    padding: 20px;
+    position: absolute;
+    top: 150px; left: 100px;
+}
+.child2 {
+    position: absolute;
+    top: 400px; left: 600px;
+}
+.child3 {
+    position:absolute;
+    top: 400px; 
+    background-color: whitesmoke;
+    width: 600px;
+}
+div p {
+    font-family: 'Righteous', serif;
+}
+div img{
+    background-color: black;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--primary-color);
+}
+h1{ 
+    font-family: "Righteous", serif;
+
+}
+ h2 {
+    color: var(--acent2-color);
+    font-family: var(--heading-font);
+}
+p {
+    color: var(--secondary-color);
+    font-family: var(--paragraph-font);
+    padding: 20px;
+} 
+nav {
+    font-size: 1.2em;
+    background-color: var(--nav-background-color);
+    display:grid;
+}
+nav a {
+    display: grid;
+    color:lightseagreen;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+.sociallinks {
+    background-color: #ffffff;
+}
+div img {
+    width: 100%;
+}
+.hero img {
+    display: grid;
+    width: 100%;
+    height: auto;
+}
+article img {
+    width: 50%;
+}
+.photos img {
+    display: grid;
+    position: relative;
+    left: 30%;
+    padding: 20px;
+}
+
+
+
+
+
+
