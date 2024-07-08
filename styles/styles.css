@@ -1,7 +1,3 @@
-header, .grid, footer {
-    max-width: 840px;
-    margin: 0 auto;
-}
 /* Container for the grid */
 .container {
     display: grid;
@@ -19,15 +15,15 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
-    grid-column: 2/3; /* Ensures aside is in the first column */
+    grid-column: 1 / 2; /* Ensures aside is in the first column */
 }
 
 /* Main on the right */
 main {
     width: 100%;
     margin: 0;
-    padding: 4rem;
-    grid-column: 1/2; /* Ensures main is in the second column */
+    padding: 1rem;
+    grid-column: 2 / 3; /* Ensures main is in the second column */
 }
 
 /* Other styles */
@@ -97,17 +93,22 @@ nav a {
     color: #fff;
 }
 
+/* Media query for mobile screens */
+@media (max-width: 600px) {
+    .container {
+        display: block; /* Stacks elements vertically */
+    }
 
+    aside, main {
+        width: 100%;
+        margin: 1rem 0;
+        grid-column: auto; /* Resets grid-column */
+    }
 
-@font-face {
-    font-family: 'ktf_dinregular';
-    src: url('..fonts/ktfdin-regular-webfont.woff') format('woff'),
-         url('..fonts/ktfdin-regular-webfont.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-
+    main img {
+        float: none;
+        margin-left: 0;
+        margin-bottom: 0;
+        clear: none;
+    }
 }
-h1{font-family:"ktf_dinregular";}
-
-/* Class Selectors */
-
