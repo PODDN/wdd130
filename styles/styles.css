@@ -103,6 +103,7 @@ nav a {
         width: 100%;
         margin: 1rem 0;
         grid-column: auto; /* Resets grid-column */
+        color: aqua;
     }
 
     main img {
